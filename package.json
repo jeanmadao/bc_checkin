@@ -1,0 +1,28 @@
+{
+  "name": "bc_checkin",
+  "version": "1.0.0",
+  "description": "Check-ins and check-outs utility for BeCode's moodle",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeanmadao/bc_checkin.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Jean Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanmadao/bc_checkin/issues"
+  },
+  "homepage": "https://github.com/jeanmadao/bc_checkin#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.6.5"
+  }
+}
